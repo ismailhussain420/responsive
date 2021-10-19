@@ -1,0 +1,44 @@
+
+
+.testimonial-section{
+
+
+    width:100%;
+    padding:80px 0px ;
+    background: url("../images/bgcarousel.png")center top no-repeat;
+    background-size: cover;
+}
+ .testimonial-section .owl-theme .item h4{
+    font-size:20px;
+    color:#fff;
+    line-height:30px  ;
+    font-style: italic;
+    margin-bottom: 30px;
+
+ }
+ .testimonial-section .owl-theme .item .round{
+
+    width: 75px;
+    height: 75px;
+    border-radius:100%
+ }
+ .testimonial-section .owl-theme .item h5{
+    font-size:15px;
+    color:#fff;
+    line-height:26px  ;
+    font-style: italic;
+    margin-bottom: 0px;
+
+ }
+ .testimonial-section .owl-theme .item p{
+    font-size:14px;
+    color:#fff;
+    line-height:24px  ;
+    font-style: italic;
+    margin-bottom: 0px;
+    font-weight: 600;
+
+ }
+ .owl-theme .owl-dots .owl-dot {
+margin-top:70px
+ }

@@ -1,0 +1,930 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+line-height:14px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration:none;
+}
+/* **************************************************
+*eschool code start
+******************************************************* */
+.header{
+
+    width:100%;
+    background: #F0FFF0;
+  
+}
+.main-menu{
+    width:100%
+}
+.main-menu .bg-light{background: transparent !important;}
+.main-menu .navbar-light .navbar-brand img{
+    width:198px
+}
+
+
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    transition:1s
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    margin: 2px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+    color:#21B573
+}
+.main-menu .navbar-light .navbar-nav .btn-success {
+    color: #fff;
+    background: #21B573;
+    border-color: #21B573;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 35px;
+    margin: 0px 0px 0px 20px;
+    transition:1s;
+} 
+.main-menu .navbar-light .navbar-nav .btn-success:hover,.main-menu .navbar-light .navbar-nav .btn-success:focus{
+    color: #21B573;
+    background: transparent;
+    border-color: #21B573;
+
+}
+
+/* banner start */
+.banner{
+    width:100%;
+    padding:80px 0px;
+
+}
+.banner h4{
+   
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+
+}
+.banner h1{
+
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+  
+    
+    
+    color: #000000; 
+}
+
+.banner h1 span{
+color: #21B573;
+
+    
+}
+.banner p{
+
+    font-size: 16px;
+line-height: 36px;
+margin-bottom:25px 
+}
+.banner .btn-success{
+
+    color: #fff;
+    background: #21B573;
+    border-color: #21B573;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 25px;
+   
+    margin: 0px 0px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border: 1px solid #000000;
+    transition:1s;
+}
+.banner .btn-success:hover,.banner .btn-success:focus{
+
+    color: #21B573;;
+    background: transparent;
+    border-color: #21B573;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+/* feature-section start */
+.feature-section{
+    width:100%;
+padding:80px 0px
+}
+.inner-feature{
+    width:100%;
+    background: #F8FFFB;
+    padding:40px 20px;
+    text-align:center
+}
+.inner-feature:hover  { 
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;}
+
+
+.inner-feature img{
+    width:70px;
+    height:78px;
+    margin-bottom: 20px;
+}
+
+.inner-feature h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin-bottom: 0px;
+}
+.inner-feature p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-bottom: 0px;
+}
+
+/* online-courses start */
+.online-courses{
+    width:100%;
+    padding:80px 0px;
+    
+}
+.online-courses .title{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #413960;
+        text-align: center;
+        margin-bottom:35px
+}
+.online-courses .card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding:15px
+}
+.online-courses .card img{
+    border-radius: 10px;
+}
+
+
+.online-courses .card .card-body{
+
+padding:15px 0px 0px
+}
+
+.online-courses .card .card-body .card-title{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+margin-bottom:0px
+}
+
+
+
+
+.online-courses .card .card-body  .card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+   
+    
+    
+    color: #585859;
+}
+.online-courses .card .card-body  .btn-success{    
+    color: #fff;
+    background: #21B573;
+    border-color: #21B573;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 20px;
+   
+    margin: 0px 0px 30px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    
+    transition:1s;
+}
+.online-courses .card .card-body  .btn-success:hover,.banner .btn-success:focus{
+
+    color: #21B573;;
+    background: transparent;
+    border-color: #21B573;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.online-courses .card .card-body  .icons{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #585859;
+}
+.online-courses .card .card-body  .icons .fa{
+
+margin-right:5px;
+
+}
+.right{
+    text-align: right;
+}
+/* online section end */
+/* testimonial section start */
+.testimonial{
+    width:100%;
+    padding:80px 0px;
+
+
+
+}
+.testimonial .title{
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+    margin-bottom:35px
+}
+.testimonial .flex-shrink-0{
+
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+}
+
+.testimonial p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+margin-left:30px
+}
+/* testimonial section end */
+/* footer section start */
+.footer{
+    width:100%;
+    padding:80px 0px 0px;
+    background: #282531;
+}
+
+
+.footer .widget-1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  
+    
+    
+    color: #FFFFFF;
+
+
+
+}
+.footer h4{
+   font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.footer .footer-link{
+
+
+    width:100%;
+    padding:0px;
+    margin-bottom: 50px;
+}
+.footer .footer-link li{
+    list-style: none;
+    margin-bottom:5px
+}
+.footer .footer-link li a{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF; 
+    text-decoration: none;
+  
+}
+.copyright{
+    text-align:center;
+    font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #CDCDCD;
+padding:30px 0px
+}
+/* footer section end */
+
+
+/******************************************************************************************************************************************
+******************************************************************************************************************************************
+                                                          media queries start 
+ ******************************************************************************************************************************************
+ *******************************************************************************************************************************************/
+
+/* media queies phn */
+
+@media( min-width:280px ) and (max-width:310px){
+ 
+    /* *****************
+         code start
+     ****************** */
+      /* main menu sectio start */
+      .main-menu .navbar-light .navbar-brand img {
+        width: 170px;
+       }
+    
+      /* main-menu section end */
+ 
+       /* banner section start */
+    .banner h4 {
+        font-size: 13px;}
+   
+        .banner h1 {
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 40px;
+            color: #000000;
+        }
+
+        .banner p {
+            font-size: 12px;
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+
+        .banner .btn-success {
+           
+            font-size: 12px;
+            font-weight: 400;
+            padding: 7px 15px;
+            margin: 0px 5px 0px 0px}
+        
+
+            .img-fluid {
+                min-width: 100%;
+                height: auto;
+                margin:30px 0px 0px 0px;
+                
+                
+            }
+/* banner section end */
+/* inner  feature section start*/
+            .inner-feature img {
+                width: 50px;
+                height: 58px;
+                margin-bottom: 20px;
+
+}
+            .inner-feature h4 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 0px;
+
+                }
+                .inner-feature p {
+                    font-size: 14px;
+                }
+
+
+/* inner feature  section end */
+
+/* onlin courses section start */
+            .online-courses .title {
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+            .online-courses .card .card-body .card-title {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 0px;
+            }
+            .online-courses .card .card-body .card-text {
+                
+                font-size: 15px;
+            }
+            .online-courses .card .card-body .btn-success {                
+                font-size: 14px;
+                font-weight: 400;
+                padding: 5px 10px
+            }
+            .online-courses .card .card-body .icons {
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 0px;
+                color: #585859;
+                display: inline-block;
+            }
+            
+
+
+            
+
+                  
+/* onlin courses section end */
+
+/*testimonial section start */
+            .testimonial .title {
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 54px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .testimonial p {
+                
+                font-size: 12px;
+                line-height: 20px;
+
+            }
+            .testimonial .flex-shrink-0 {
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+                margin-top: 60px;
+            }
+
+
+/* testiomonial section end */
+ 
+/* footer section start */
+            .footer .widget-1 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+            .footer h4 {
+                
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .footer .footer-link li a {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+            }
+            .copyright {
+                font-size: 11px;
+            }
+
+/* footer section end */
+
+
+
+    /* *****************
+         code end
+     ****************** */
+    }
+@media( min-width:311px ) and ( max-width:320px ){
+    /* *****************
+         code start
+     ****************** */
+     /* banner section satrt */
+    .banner h4 {
+        font-size: 15px;}
+   
+        .banner h1 {
+            font-weight: bold;
+            font-size: 33px;
+            line-height: 50px;
+            color: #000000;
+        }
+    
+    
+    .banner p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .banner .btn-success {
+        color: #fff;
+        background: #21B573;
+        border-color: #21B573;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 25px;
+        margin: 0px 5px 0px 0px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 33px;
+        border: 1px solid #000000;
+        transition: 1s;}
+    
+        .img-fluid {
+            min-width: 100%;
+            height: auto;
+            margin:40px 0px 0px 0px;
+            
+        }
+        .testimonial .title {
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 50px;
+            color: #413960;
+            text-align: center;
+            margin-bottom: 33px;
+        }
+        .testimonial .desc p{
+            font-size: 12px;      
+            margin-bottom: 25px;
+            display: inline;
+            margin-left:30px;   
+            
+        }
+
+        /* banner section end */
+    /* online-courses section start */
+    .online-courses .title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 50px;
+        color: #413960;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+        
+    
+    .online-courses .card .card-body .card-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #413960;
+        margin-bottom: 0px;
+    }
+
+    .online-courses .card .card-body .btn-success {
+        color: #fff;
+        background: #21B573;
+        border-color: #21B573;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 8px 20px;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 33px;
+        transition: 1s;
+    }
+
+    .online-courses .card .card-body .icons {
+        font-weight: 400;
+        font-size: 12px;
+        line-height:10px;
+        color: #585859;
+        margin-bottom:0px
+    }
+    
+    .online-courses .card .card-body .right {
+        text-align: right;
+        margin-bottom:10px
+    }
+     /* online courses end */
+/* testimonial section start */
+
+    .testimonial .flex-shrink-0 {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        padding:3px
+    }
+    .inner-feature h4 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #413960;
+        margin-bottom: 0px;
+    }
+
+    .inner-feature p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #585859;
+        margin-bottom: 0px;
+    }
+
+    
+
+    /* testimonial section end */
+    /* footer sction start */
+    .footer .widget-1 {
+        
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .footer .footer-link li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        color: #CDCDCD;
+        padding: 30px 0px;
+    }
+    
+    /* footer section end */
+
+
+     /* *****************
+         code end
+     ****************** */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( min-width:321px ) and ( max-width:480px ){
+     /* *****************
+         code start
+     ****************** */
+
+
+/* banner section satrt */
+.banner h4 {
+    font-size: 14px;}
+.banner h1 {
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.banner .btn-success {
+    color: #fff;
+    background: #21B573;
+    border-color: #21B573;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 25px;
+    margin: 0px 5px 0px 0px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 33px;
+    border: 1px solid #000000;
+    transition: 1s;}
+
+    .img-fluid {
+        min-width: 100%;
+        height: auto;
+        margin:50px 0px 0px 0px;
+        
+    }
+    .testimonial .title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 50px;
+        color: #413960;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+    .testimonial .desc p{
+        font-size: 14px;      
+        margin-bottom: 25px;
+        display: inline;
+        margin-left:30px;;
+        text-decoration: solid;
+        
+        
+        
+    }
+    /* banner section end */
+    /* inner feature section start */
+    .inner-feature h4 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #413960;
+        margin-bottom: 0px;
+    }
+
+    .inner-feature p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #585859;
+        margin-bottom: 0px;
+    }
+  /* inner feature section end */
+    
+/* online courses section start */
+.online-courses .title {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+    color: #413960;
+    text-align: center;
+    margin-bottom: 30px;
+}
+    
+
+.online-courses .card .card-body .card-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #413960;
+    margin-bottom: 0px;
+}
+
+/* online courses  start */
+
+/* footer section start */
+.footer .widget-1 {
+    
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.footer .footer-link li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #CDCDCD;
+    padding: 30px 0px;
+}
+
+/* footer section end */
+
+    /* *****************
+         code end
+     ****************** */
+
+
+
+
+
+}
+@media( min-width:481px ) and ( max-width:767px ){
+  /* banner section start */
+            .banner  .img-fluid {
+                min-width: 100%;
+                height: auto;
+                margin:50px 0px 0px 0px;
+               
+            }
+            
+    /* banner section end */
+    /* testimonial section start */
+    
+    .testimonial .flex-shrink-0 {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        padding: 5px;
+        margin-top: 40px;
+    }
+        .testimonial p {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            color: #000000;
+            padding: 15px 5px;
+            margin-left: 30px;
+        }
+        /* testimonial section end */
+    
+    
+      /* *****************
+         code end
+      ****************** */
+    }
+    
+    @media( min-width:768px ){
+        .testimonial .flex-shrink-0 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-left:60px
+        }
+
+
+    }
+    @media( min-width:768px ) and ( max-width:1000px ){
+
+        /* banner section start */
+        .banner  .img-fluid {
+            min-width: 100%;
+            height: auto;
+            margin:50px 0px 0px 0px;
+           
+        }
+        
+/* testimonial section start */
+
+.testimonial .flex-shrink-0 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 40px;
+}
+    .testimonial p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #000000;
+        padding: 15px 5px;
+        margin-left: 30px;
+    }
+    
+
+    /* online courses section start */
+    .online-courses .card .card-body .icons {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #585859;
+    }
+
+    /* testimoniaal section start */
+    .testimonial .flex-shrink-0 {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .testimonial p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        padding: 48px;
+        margin-left: 20px;
+    }
+
+    /* footer sction start */
+    
+    
+    
+    
+    }
+/******************************************************************************************************************************************
+******************************************************************************************************************************************
+                                                      media queries end
+ ******************************************************************************************************************************************
+ *******************************************************************************************************************************************/
